@@ -29,7 +29,7 @@ export function Hero() {
 
       <div id="about" className="mt-20 max-w-3xl text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">About</h2>
-        <p className="mt-3 text-[#e2e8f0]/80">I’m Damand Martin — a developer with a passion for building intuitive apps and games. I specialize in front-end engineering and design systems.</p>
+        <p className="mt-3 text-[#e2e8f0]/80">I'm a passionate developer specializing in interactive applications and game development. With a focus on creating engaging user experiences, I build projects that blend creativity with technical problem-solving. I utilize cutting-edge development tools and AI-assisted workflows to optimize code quality and accelerate project delivery. My portfolio includes platformer and top-down games showcasing proficiency in modern development environments like Cursor, API integration with OpenAI and Claude, and full project lifecycle management from conception to deployment. I'm eager to bring my enthusiasm for innovation and collaborative development to impactful projects.</p>
       </div>
 
       {/* Social section removed per request */}
@@ -61,7 +61,7 @@ export function Hero() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">Courses & Education</h2>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
           <Button size="lg" variant="outline" className="bg-[#ffd700]/10 text-[#ffd700] border-[#ffd700]/20 hover:bg-[#ffd700]/20">
-            <span>Udemy</span>
+            <span>Austin Community College</span>
           </Button>
           <Button size="lg" variant="outline" className="bg-[#ffd700]/10 text-[#ffd700] border-[#ffd700]/20 hover:bg-[#ffd700]/20">
             <span>Coursera</span>
@@ -79,7 +79,7 @@ export function Hero() {
           <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">Products Built</h2>
         </div>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {[{ id: "prod.olly", name: "olly.social", users: "25K+ Users", paid: "5K+ Paid" }, { id: "prod.snapy", name: "snapy.ai", users: "35K+ Users" }].map((prod) => (
+          {[{ id: "prod.airplane", name: "Airplane Mode - A game", users: "", paid: "" }, { id: "prod.foxnotes", name: "FoxNotes - NoteTaking Tool", users: "", paid: "" }].map((prod) => (
             <div key={prod.id} className="rounded-lg border border-[#ffd700]/20 bg-[#ffd700]/10 p-5 shadow-sm transition-colors hover:bg-[#ffd700]/20">
               <h3 className="text-lg font-semibold text-[#ffd700]">
                 <span className="text-[#ffd700]">{prod.name}</span>
@@ -94,7 +94,7 @@ export function Hero() {
 
       <div id="professional-background" className="mt-20 max-w-3xl text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">Professional Background</h2>
-        <p className="mt-3 text-[#e2e8f0]/80">12+ years building AI products across Media, Fintech, Regtech, Edtech, and Martech. MBA from SIMSREE; BS in Information Technology.</p>
+        <p className="mt-3 text-[#e2e8f0]/80">Coming soon.</p>
       </div>
 
       {/* Teaching & Education section removed per request */}
