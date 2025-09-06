@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Damand Martin",
-  description: "12+ years building AI products & teaching 120K+ students worldwide.",
+  description: "Software developer and game designer. I build clean, accessible interfaces with a focus on UX.",
 };
 
 export default function RootLayout({
