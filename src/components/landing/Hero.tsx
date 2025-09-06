@@ -6,7 +6,7 @@ export function Hero() {
     <section id="home" className="relative mx-auto flex max-w-6xl flex-col items-center gap-8 px-4 pb-20 pt-14 sm:pt-20">
       <div className="relative mt-4 h-40 w-40 overflow-hidden rounded-full ring-4 ring-[#ffd700] shadow-xl sm:h-48 sm:w-48 bg-[#0a202c]">
         <Image
-          src="/avatar.svg"
+          src="/profile.jpg"
           alt="Profile photo"
           fill
           sizes="192px"
@@ -15,8 +15,8 @@ export function Hero() {
         />
       </div>
       <div className="flex max-w-3xl flex-col items-center text-center">
-        <h1 className="text-balance text-3xl font-semibold tracking-tight text-[#e2e8f0] sm:text-5xl">AI Instructor & Product Leader</h1>
-        <p className="mt-4 text-pretty text-base text-[#e2e8f0]/80 sm:text-lg">Building AI products and teaching worldwide. Inspired by autumn hues — warm amber, rust, and deep plum — for a professional yet welcoming feel.</p>
+        <h1 className="text-balance text-3xl font-semibold tracking-tight text-[#e2e8f0] sm:text-5xl">Damand Martin</h1>
+        <p className="mt-4 text-pretty text-base text-[#e2e8f0]/80 sm:text-lg">Software developer and game designer. I build clean, accessible interfaces with a focus on UX.</p>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
           <Button size="lg" variant="outline" className="bg-[#ffd700]/10 text-[#ffd700] border-[#ffd700]/20 hover:bg-[#ffd700]/20">
             <span>Contact</span>
@@ -29,7 +29,7 @@ export function Hero() {
 
       <div id="about" className="mt-20 max-w-3xl text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">About</h2>
-        <p className="mt-3 text-[#e2e8f0]/80">I craft delightful, accessible interfaces with a focus on usability and clarity.</p>
+        <p className="mt-3 text-[#e2e8f0]/80">I’m Damand Martin — a developer with a passion for building intuitive apps and games. I specialize in front-end engineering and design systems.</p>
       </div>
 
       {/* Social section removed per request */}
