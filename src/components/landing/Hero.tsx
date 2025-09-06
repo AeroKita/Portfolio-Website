@@ -43,12 +43,12 @@ export function Hero() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">Core Expertise</h2>
         <ul className="mt-4 grid grid-cols-1 gap-2 text-[#e2e8f0]/80 sm:grid-cols-2">
           {[
-            { id: "expertise.item1", text: "Generative AI" },
-            { id: "expertise.item2", text: "Product Strategy" },
-            { id: "expertise.item3", text: "SaaS Development" },
-            { id: "expertise.item4", text: "AI Consulting" },
-            { id: "expertise.item5", text: "Technical Leadership" },
-            { id: "expertise.item6", text: "Educational Design" },
+            { id: "expertise.item1", text: "Game Development" },
+            { id: "expertise.item2", text: "Full-Stack Web Development" },
+            { id: "expertise.item3", text: "Project Management" },
+            { id: "expertise.item4", text: "AI-Assisted Development" },
+            { id: "expertise.item5", text: "Cross-Platform App Development" },
+            { id: "expertise.item6", text: "Rapid Prototyping" },
           ].map((item) => (
             <li key={item.id} className="rounded-md bg-[#ffd700]/10 px-3 py-2 text-[#ffd700]">
               <span>{item.text}</span>
