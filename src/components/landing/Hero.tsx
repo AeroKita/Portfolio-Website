@@ -29,7 +29,7 @@ export function Hero() {
 
       <div id="about" className="mt-20 max-w-3xl text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-[#e2e8f0] sm:text-3xl">About</h2>
-        <p className="mt-3 text-[#e2e8f0]/80">I'm a passionate developer specializing in interactive applications and game development. With a focus on creating engaging user experiences, I build projects that blend creativity with technical problem-solving. I utilize cutting-edge development tools and AI-assisted workflows to optimize code quality and accelerate project delivery. My portfolio includes platformer and top-down games showcasing proficiency in modern development environments like Cursor, API integration with OpenAI and Claude, and full project lifecycle management from conception to deployment. I'm eager to bring my enthusiasm for innovation and collaborative development to impactful projects.</p>
+        <p className="mt-3 text-[#e2e8f0]/80">I&apos;m a passionate developer specializing in interactive applications and game development. With a focus on creating engaging user experiences, I build projects that blend creativity with technical problem-solving. I utilize cutting-edge development tools and AI-assisted workflows to optimize code quality and accelerate project delivery. My portfolio includes platformer and top-down games showcasing proficiency in modern development environments like Cursor, API integration with OpenAI and Claude, and full project lifecycle management from conception to deployment. I&apos;m eager to bring my enthusiasm for innovation and collaborative development to impactful projects.</p>
       </div>
 
       {/* Social section removed per request */}
