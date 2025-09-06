@@ -19,10 +19,10 @@ export function Hero() {
         <p className="mt-4 text-pretty text-base text-[#e2e8f0]/80 sm:text-lg">Building AI products and teaching worldwide. Inspired by autumn hues — warm amber, rust, and deep plum — for a professional yet welcoming feel.</p>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
           <Button size="lg" variant="outline" className="bg-[#ffd700]/10 text-[#ffd700] border-[#ffd700]/20 hover:bg-[#ffd700]/20">
-            <EditableText id="hero.ctaPrimary" as="span">Contact</EditableText>
+            <span>Contact</span>
           </Button>
           <Button size="lg" variant="outline" className="bg-[#ffd700]/10 text-[#ffd700] border-[#ffd700]/20 hover:bg-[#ffd700]/20">
-            <EditableText id="hero.ctaSecondary" as="span">About</EditableText>
+            <span>About</span>
           </Button>
         </div>
       </div>
